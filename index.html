@@ -71,7 +71,8 @@ body {
 .sidenav a:hover {
     color: #f1f1f1;
 }
-.sidenav a:active {
+/* turn it white when you're on that section */
+.sidenav a:focus {
     color: #f1f1f1;
 }
 
@@ -87,8 +88,9 @@ body {
     .sidenav a {font-size: 18px;}
 }
 
-
-
+@media screen and (max-width: 900px) {
+    <!-- remove sidebar, add nav bar -->
+}
 </style>
 
 <head>
@@ -117,7 +119,6 @@ body {
     </p>
 
 <!-- side navigation -->
-<!-- Side navigation -->
 <div class="sidenav">
     <br>
     <br>
