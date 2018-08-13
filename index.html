@@ -4,22 +4,36 @@
 
 <style>
 
+:root {
+    --background-cyan: #009999;
+    --background-grey: #f2f2f2;
+    --nav-text-dark: #141f1f;
+    --nav-text-light: #e6e6e6;
+}
+
 * {
     font-family: 'PT Sans', sans-serif;
     color: black;
-    background-color: #f2f2f2;
+    background-color: var(--background-grey);
+    margin: 0 auto;
 }
+
 .title {
     display: inline;
     font-size: 50pt;
 }
+
 .header {
     display: inline;
     font-size: 32pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 p {
     font-size: 18pt;
     text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 body {
     max-width: 950px;
@@ -27,13 +41,11 @@ body {
     padding-right: 80px;
     padding-top: 40px;
     padding-bottom: 50px;
-    margin: 0 auto;
 }
 .subheader {
     font-size: 20pt;
     text-indent: 50px;
     text-align: left;
-    margin: 0 auto;
     padding-top: 8px;
     padding-bottom: 8px;
 }
@@ -41,42 +53,38 @@ body {
     font-size: 18pt;
     text-indent: 100px;
     text-align: left;
-    margin: 0 auto;
     padding-top: 8px;
     padding-bottom: 8px;
 }
-/* The sidebar menu */
 .sidenav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 180px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     left: 0;
-    background-color: #008080; /* cyan */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    background-color: var(--background-cyan);
+    overflow-x: hidden;
     padding-top: 20px;
 }
 
-/* The navigation menu links */
 .sidenav a {
-    background-color: #008080; /* cyan */
+    background-color: var(--background-cyan);
     padding: 6px 8px 6px 16px;
     padding-left: 30px;
     text-decoration: none;
-    font-size: 30px;
-    color: #141f1f; 
+    font-size: 34px;
+    color: var(--nav-text-dark);
     display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-    color: #e6e6e6;
+    color: var(--nav-text-light);
 }
 
 /* Style page content */
 .main {
-    margin-left: 160px; /* Same as the width of the sidebar */
+    margin-left: 160px;
     padding: 0px 10px;
 }
 
@@ -121,7 +129,6 @@ body {
         course, CS 61A: The Structure and Interpretation of
         Computer Programs, for which I've worked as as Academic Intern,
         One-on-One Tutor, and Mentor.
-        <br>
         <br>
     </p>
 
