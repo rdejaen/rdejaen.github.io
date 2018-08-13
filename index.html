@@ -5,15 +5,15 @@
 <style>
 
 :root {
-    --background-cyan: #009999;
+    --background-blue: #0086b3; 
     --background-grey: #f2f2f2;
-    --nav-text-dark: #141f1f;
-    --nav-text-light: #e6e6e6;
+    --text-dark: #141f1f;
+    --text-light: #e6e6e6;
 }
 
 * {
     font-family: 'PT Sans', sans-serif;
-    color: black;
+    color: var(--text-dark);
     background-color: var(--background-grey);
     margin: 0 auto;
 }
@@ -63,23 +63,24 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: var(--background-cyan);
+    background-color: var(--background-blue);
     overflow-x: hidden;
     padding-top: 20px;
 }
 
 .sidenav a {
-    background-color: var(--background-cyan);
+    background-color: var(--background-blue);
     padding: 6px 8px 6px 16px;
     padding-left: 30px;
     text-decoration: none;
-    font-size: 34px;
-    color: var(--nav-text-dark);
+    font-size: 36px;
+    color: var(--text-dark);
     display: block;
+    font-weight: 500;
 }
 
 .sidenav a:hover {
-    color: var(--nav-text-light);
+    color: var(--text-light);
 }
 
 /* Style page content */
