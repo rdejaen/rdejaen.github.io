@@ -1,3 +1,5 @@
+/* top-right-bottom-left, top-right/left-bottom
+    top/bottom-right/left, all */
 :root {
     --background-blue: #0086b3;
     --background-grey: #f2f2f2;
@@ -20,35 +22,29 @@
 .header {
     display: inline;
     font-size: 32pt;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 p {
     font-size: 18pt;
     text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 10px;
 }
 body {
     max-width: 950px;
-    padding-left: 200px;
-    padding-right: 80px;
-    padding-top: 40px;
-    padding-bottom: 50px;
+    min-width: 750;
+    padding: 40px 80px 50px 200px;
 }
 .subheader {
     font-size: 20pt;
     text-indent: 50px;
     text-align: left;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px;
 }
 .subsubheader {
     font-size: 18pt;
     text-indent: 100px;
     text-align: left;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px;
 }
 .sidenav {
     height: 100%;
@@ -65,7 +61,7 @@ body {
 .sidenav a {
     background-color: var(--background-blue);
     padding: 6px 8px 6px 16px;
-    padding-left: 30px;
+    text-indent: 15px;
     text-decoration: none;
     font-size: 36px;
     color: var(--text-dark);
