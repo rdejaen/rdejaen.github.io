@@ -31,7 +31,6 @@ p {
 }
 body {
     max-width: 950px;
-    min-width: 750;
     padding: 40px 80px 50px 200px;
 }
 .subheader {
