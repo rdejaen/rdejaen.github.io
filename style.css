@@ -16,9 +16,18 @@
 
 .title {
     display: inline;
-    font-size: 50pt;
+    font-size: 45pt;
 }
-
+i {
+    padding-right: 20px;
+}
+ul {
+    padding-left: 105px;
+}
+td {
+  vertical-align: top;
+  height: 50px;
+}
 .header {
     display: inline;
     font-size: 32pt;
@@ -31,7 +40,13 @@ p {
 }
 body {
     max-width: 950px;
-    padding: 40px 80px 50px 200px;
+    padding: 40px 50px 50px 150px;
+}
+table {
+    border-spacing: 15px;
+}
+ul#contact li {
+  display:inline;
 }
 .subheader {
     font-size: 20pt;
@@ -47,7 +62,7 @@ body {
 }
 .sidenav {
     height: 100%;
-    width: 180px;
+    width: 200px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -60,7 +75,7 @@ body {
 .sidenav a {
     background-color: var(--background-blue);
     padding: 6px 8px 6px 16px;
-    text-indent: 15px;
+    text-align: center;
     text-decoration: none;
     font-size: 36px;
     color: var(--text-dark);
