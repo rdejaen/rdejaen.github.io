@@ -19,11 +19,16 @@
     font-size: 45pt;
 }
 i {
-    padding-right: 20px;
+    padding: 10px 10px 10px 10px
 }
 ul {
     padding-left: 105px;
+    padding-right: 105px;
 }
+ul#contact li {
+  display:inline;
+}
+
 td {
   vertical-align: top;
   height: 50px;
@@ -45,12 +50,17 @@ body {
 table {
     border-spacing: 15px;
 }
-ul#contact li {
-  display:inline;
-}
 .subheader {
     font-size: 20pt;
     text-indent: 50px;
+    text-align: left;
+    padding: 8px;
+}
+.subheader a:hover {
+    color: var(--background-blue)
+}
+.subheaderNoIndent {
+    font-size: 20pt;
     text-align: left;
     padding: 8px;
 }
@@ -71,6 +81,7 @@ ul#contact li {
     overflow-x: hidden;
     padding-top: 20px;
 }
+
 
 .sidenav a {
     background-color: var(--background-blue);
