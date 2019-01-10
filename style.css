@@ -21,6 +21,15 @@
 i {
     padding: 10px 10px 10px 10px
 }
+.fa fa-linkedin:hover {
+	color: #5695b6;
+} .fa fa-github:hover {
+	color: #474747;
+} .fa fa-file-pdf-o:hover {
+	color: #de5959;
+} .fa fa-envelope-o {
+    color: #de5959;
+}
 ul {
     padding-left: 105px;
     padding-right: 105px;
